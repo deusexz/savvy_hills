@@ -1,0 +1,65 @@
+.about {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(28, 28, 28);
+}
+
+.aboutVideoWrapper {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.aboutVideo {
+    width: 50%;
+    height: 60%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playButton {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(2, 223 ,255);
+    cursor: pointer;
+    transition: 300ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playButton:hover {
+    transform: scale(1.2);
+    background-color: rgb(56, 15, 148);
+}
+
+.playIcon {
+    font-size: 30px;
+}
+
+
+.aboutDescription {
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.aboutDescription h1 {
+    font-family: "Montserrat SemiBold", sans-serif;
+    font-size: 24px;
+}
+
+.aboutDescription p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height:30px;
+}
