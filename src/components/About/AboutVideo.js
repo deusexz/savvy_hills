@@ -1,9 +1,9 @@
 import React from 'react';
-import '../assets/css/about.css'
+import './about.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlay} from "@fortawesome/free-solid-svg-icons/faPlay";
 import Slider from "react-slick";
-import DATA from "../data/aboutSlider";
+import DATA from "./aboutSlider";
 
 function AboutVideo(props) {
 

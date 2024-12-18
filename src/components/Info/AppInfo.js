@@ -1,7 +1,7 @@
 import React from 'react';
-import '../assets/css/info.css'
+import './info.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import DATA from '../data/infoData';
+import DATA from './infoData';
 
 function AppInfo(props) {
     return (

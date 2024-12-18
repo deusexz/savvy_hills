@@ -1,9 +1,9 @@
 import React from 'react';
-import AppHeader from "../components/AppHeader";
-import Hero from "../components/Hero";
-import AppInfo from "../components/AppInfo";
-import AboutVideo from "../components/AboutVideo";
-import Footer from "../components/Footer";
+import AppHeader from "../components/Header/AppHeader";
+import Hero from "../components/Hero/Hero";
+import AppInfo from "../components/Info/AppInfo";
+import AboutVideo from "../components/About/AboutVideo";
+import Footer from "../components/Footer/Footer";
 
 function Home(props) {
     return (

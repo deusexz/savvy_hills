@@ -1,8 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
-import '../assets/css/hero.css';
-import Logo from '../assets/logo/img_1.png';
-import DATA from "../data/sliderData";
+import './hero.css';
+import Logo from '../../assets/logo/img_1.png';
+import DATA from "./sliderData";
 
 function Hero(props) {
     const settings = {

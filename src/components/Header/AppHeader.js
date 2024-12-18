@@ -1,6 +1,6 @@
 import React from 'react';
-import '../assets/css/header.css'
-import logo from '../assets/logo/logo.svg'
+import './header.css'
+import logo from '../../assets/logo/logo.svg'
 
 function AppHeader(props) {
     return (
