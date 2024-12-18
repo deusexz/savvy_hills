@@ -1,20 +1,21 @@
 import React from 'react';
-import './info.css'
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import DATA from './infoData';
+import styles from './info.module.css';
 
-function AppInfo(props) {
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import DATA from './constInfo';
+
+const AppInfoBlock = () => {
     return (
-        <section className={'info'}>
-            <div className={'infoWrapper'}>
-                    {DATA.map((item) => (
-                        <div className={'infoItem'}>
-                            <div key={item.id} className={'infoItemHeader'}>
-                                <FontAwesomeIcon className={'infoIcon'} icon={item.icon}/>
-                                <span className={'infoItemSpan'}>{item.header}</span>
+        <section className={styles.info}>
+            <div className={styles.infoWrapper}>
+                    {DATA.map(({id,header,icon}) => (
+                        <div key={id} className={styles.infoItem}>
+                            <div className={styles.infoItemHeader}>
+                                <FontAwesomeIcon className={styles.infoIcon} icon={icon}/>
+                                <span className={styles.infoItemSpan}>{header}</span>
                             </div>
-                            <div className={'infoContent'}>
-                                <div key={item.id} className={'infoContentText'}>
+                            <div className={styles.infoContent}>
+                                <div className={styles.infoContentText}>
                                     <p>
                                         Nam pharetra nisi eget dui pretium, a mollis turpis congue. Fusce eros massa,
                                         dictum
@@ -37,4 +38,4 @@ function AppInfo(props) {
     );
 }
 
-export default AppInfo;
+export default AppInfoBlock;

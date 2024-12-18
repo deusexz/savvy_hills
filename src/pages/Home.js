@@ -1,18 +1,18 @@
 import React from 'react';
-import AppHeader from "../components/Header/AppHeader";
-import Hero from "../components/Hero/Hero";
-import AppInfo from "../components/Info/AppInfo";
-import AboutVideo from "../components/About/AboutVideo";
-import Footer from "../components/Footer/Footer";
+import AppHeaderBlock from "../components/Header/AppHeaderBlock";
+import HeroBlock from "../components/Hero/HeroBlock";
+import AppInfoBlock from "../components/Info/AppInfoBlock";
+import AboutVideoBlock from "../components/About/AboutVideoBlock";
+import FooterBlock from "../components/Footer/FooterBlock";
 
 function Home(props) {
     return (
         <div>
-            <AppHeader/>
-            <Hero/>
-            <AppInfo/>
-            <AboutVideo/>
-            <Footer/>
+            <AppHeaderBlock/>
+            <HeroBlock/>
+            <AppInfoBlock/>
+            <AboutVideoBlock/>
+            <FooterBlock/>
         </div>
     );
 }

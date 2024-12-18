@@ -49,3 +49,54 @@
     background: rgb(2, 223, 255);
     transform: scale(1.1);
 }
+
+@media (min-width: 992px) and (max-width: 1250px) {
+    .header {
+        height: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header {
+        height: 60px;
+    }
+    .headerLinks {
+        width: 400px;
+    }
+    .headerLinks a{
+        font-size: 1.5vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .header {
+        height: 60px;
+    }
+    .headerLinks {
+        width: 50vw;
+    }
+    .headerLinks a{
+        font-size: 1.8vw;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .header {
+        height: 60px;
+        padding: 2vw;
+    }
+    .headerLinks {
+        width: 50vw;
+    }
+    .headerLinks a{
+        font-size: 2vw;
+    }
+    .headerLogo {
+        width: 10vw;
+    }
+    .contactButton {
+        width: 25vw;
+        height: 8vw;
+        font-size: 3vw;
+    }
+}
