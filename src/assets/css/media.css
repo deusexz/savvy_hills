@@ -81,11 +81,12 @@
     }
     /**/
     .about {
-        height:220vw;
+        height:240vw;
     }
     .aboutVideoWrapper {
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+        width: 100vw;
     }
     .aboutVideo {
         width: 90vw;
@@ -97,8 +98,14 @@
         padding: 6vw;
     }
     .aboutDescription p {
-        font-size: 3.6vw;
+        font-size: 3vw;
         line-height: 8vw;
+    }
+    .aboutSliderHeader {
+        font-size: 5vw;
+    }
+    .sliderIcon {
+        font-size: 8vw;
     }
     /**/
     .footer {
@@ -219,6 +226,8 @@
     .aboutVideoWrapper {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        width: 100vw;
     }
     .aboutVideo {
         width: 90vw;
@@ -228,30 +237,40 @@
         width: 95vw;
         height: 50vw;
     }
+    .aboutSliderHeader {
+        font-size: 3.5vw;
+        margin-top: 10vw;
+    }
+    .sliderIcon {
+        font-size: 7vw;
+    }
     /**/
     .footer {
         height: 50vw;
-        justify-content: center;
+        justify-content: start;
+        gap: 6vw;
     }
     .footerHeading {
-        font-size: 2.3vw;
+        font-size: 2.5vw;
     }
     .footerWrapper {
+        width: 100vw;
         height: 30vw;
     }
     .footerSocial {
-        height: 10vw;
+        height: 5vw;
     }
     .socialWrapper {
         width: 30vw;
         height: 10vw;
     }
     .footerWrapper div a {
-        font-size: 1.7vw;
-        line-height: 2.6vw;
+        font-size: 2.2vw;
+        line-height: 3.2vw;
     }
     .footerWrapper p {
-        font-size: 1.6vw;
+        font-size: 2vw;
+        line-height: 4vw;
     }
     .footerLink {
         width: 6vw;
@@ -318,11 +337,12 @@
     }
     /**/
     .about {
-        height: 80vh;
+        height: 110vh;
     }
     .aboutVideoWrapper {
         justify-content: center;
         align-items: center;
+        width: 100vw;
     }
     .aboutVideo {
         width: 45vw;
@@ -331,15 +351,25 @@
     .aboutDescription {
         width: 50vw;
         height: 50vw;
+        padding: 5vw;
     }
     .aboutDescription p {
         font-size: 1.8vw;
         line-height: 3.2vw;
     }
+    .aboutSliderHeader {
+        font-size: 3.5vw;
+    }
+    .sliderIcon {
+        font-size: 7vw;
+    }
     /**/
     .footer {
-        height: 40vw;
+        height:50vw;
         justify-content: center;
+    }
+    .footerHeading {
+        font-size: 2.2vw;
     }
     .footerWrapper {
         height: 30vw;
@@ -349,7 +379,7 @@
         line-height: 2.6vw;
     }
     .footerWrapper p {
-        font-size: 1.8vw;
+        font-size: 1.6vw;
     }
 }
 
@@ -389,6 +419,7 @@
     /**/
     .aboutVideoWrapper {
         justify-content: center;
+        width: 100vw;
     }
     .aboutVideo {
         width: 45vw;
@@ -397,8 +428,16 @@
         width: 45vw;
     }
     /**/
+    .footer {
+        height: 30vw;
+        justify-content: center;
+        gap: 3vw;
+    }
     .footerWrapper div a {
         font-size: 1.4vw;
         line-height: 2.5vw;
+    }
+    .footerWrapper p {
+        font-size: 1.2vw;
     }
 }

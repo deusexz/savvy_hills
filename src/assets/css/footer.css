@@ -9,7 +9,7 @@
 }
 
 .footerWrapper {
-    width: 80%;
+    width: 70%;
     height: 25vh;
     display: flex;
 }
@@ -33,7 +33,7 @@
 }
 .footerWrapper p {
     margin: 0;
-    line-height: 3.6vw;
+    line-height: 36px;
 }
 .footerWrapper a {
     font-size: 14px;
@@ -48,12 +48,20 @@
 }
 
 .footerSocial {
-    width: 80%;
+    width: 70%;
     height: 8vh;
-    border-top: 1px solid rgba(28, 28, 28, 0.55);
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
+.footerSocial::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 1px;
+    background-color: rgba(28, 28, 28, 0.5);
+}
+
 
 .socialWrapper {
     width: 200px;
