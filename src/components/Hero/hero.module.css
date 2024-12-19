@@ -80,6 +80,8 @@
 @media (min-width: 992px) and (max-width: 1250px) {
     .hero{
         height: 100vh;
+        background-position: unset;
+        background-size: unset;
     }
     .heroLogo {
         width: 30vw;
@@ -101,6 +103,8 @@
 @media (min-width: 768px) and (max-width: 992px) {
     .hero{
         height: 100vh;
+        background-position: 0;
+        background-size: unset;
     }
     .heroLogo {
         width: 30vw;
@@ -124,6 +128,8 @@
 @media (min-width: 576px) and (max-width: 768px) {
     .hero{
         height: 140vh;
+        background-position: 0;
+        background-size: unset;
     }
     .heroLogo {
         width: 50vw;
@@ -154,6 +160,8 @@
 @media (min-width: 320px) and (max-width: 576px) {
     .hero{
         height: 100vh;
+        background-position: 0;
+        background-size: unset;
     }
     .heroLogo {
         width: 60vw;
