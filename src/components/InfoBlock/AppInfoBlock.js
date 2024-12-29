@@ -2,11 +2,11 @@ import React from 'react';
 import styles from './info.module.css';
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import DATA from './constInfo';
+import DATA from './Info.constants';
 
 const AppInfoBlock = () => {
     return (
-        <section className={styles.info}>
+        <section id={"info"} className={styles.info}>
             <div className={styles.infoWrapper}>
                     {DATA.map(({id,header,icon}) => (
                         <div key={id} className={styles.infoItem}>

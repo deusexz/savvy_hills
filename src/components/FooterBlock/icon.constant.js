@@ -2,16 +2,16 @@ import {faGithub, faLinkedin, faFacebook, faTwitter} from '@fortawesome/free-bra
 
 
 const ICONS = [{
-    id: 1,
+    id: 0,
     icon:faGithub
 },{
-    id: 2,
+    id: 1,
     icon:faLinkedin
 },{
-    id: 3,
+    id: 2,
     icon:faFacebook
 },{
-    id: 4,
+    id: 3,
     icon:faTwitter
 }]
 

@@ -12,6 +12,7 @@
 .heroLogo {
     width: 400px;
     margin: 50px;
+    user-select: none;
 }
 
 .heroWrapper {
@@ -49,6 +50,7 @@
     height: 45px;
     font-size: 18px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .sliderItem button::before,
@@ -159,7 +161,7 @@
 
 @media (min-width: 320px) and (max-width: 576px) {
     .hero{
-        height: 100vh;
+        height: 120vh;
         background-position: 0;
         background-size: unset;
     }
@@ -183,8 +185,8 @@
         font-size: 6vw;
     }
     .heroSlider p {
-        font-size: 3.5vw;
-        line-height: 4vw;
+        font-size: 3.2vw;
+        line-height: 6vw;
     }
     .heroSlider button {
         width: 30vw;

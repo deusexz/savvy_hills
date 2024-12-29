@@ -3,12 +3,12 @@ import styles from './about.module.css'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlay} from "@fortawesome/free-solid-svg-icons/faPlay";
 import Slider from "react-slick";
-import DATA from "./constSlider";
-import settings from "./sliderSettings";
+import DATA from "./Slider.constant";
+import settings from "./Slider.settings";
 
  const AboutVideoBlock = () => {
     return (
-        <section className={styles.about}>
+        <section id={"about"} className={styles.about}>
             <div className={styles.aboutVideoWrapper}>
                 <div className={styles.aboutVideo}>
                     <div className={styles.playButton}>

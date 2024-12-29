@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './footer.module.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import ICONS from "./constIcons";
+import ICONS from "./icon.constant";
 
 const FooterBlock = () => {
     return (
-        <section className={styles.footer}>
+        <section id={"footer"} className={styles.footer}>
             <div className={styles.footerWrapper}>
                 <div>
                     <h3 className={styles.footerHeading}>Navigation</h3>
@@ -35,8 +35,8 @@ const FooterBlock = () => {
             <div className={styles.footerSocial}>
                 <div className={styles.socialWrapper}>
                     {
-                        ICONS.map(({icon}) => (
-                            <div className={styles.footerLink}>
+                        ICONS.map(({icon,id}) => (
+                            <div key={id} className={styles.footerLink}>
                                 <FontAwesomeIcon className={styles.footerIcon} icon={icon}/>
                             </div>
                         ))

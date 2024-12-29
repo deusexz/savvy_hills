@@ -66,7 +66,7 @@
 
 .aboutSlider {
     width: 70%;
-    height: 20%;
+    height: 10%;
 }
 .aboutSliderItem {
     height: 100%;
@@ -140,7 +140,7 @@
 
 @media (min-width: 576px) and (max-width: 768px) {
     .about {
-        height:120vh;
+        height:160vw;
     }
     .aboutVideoWrapper {
         flex-direction: column;

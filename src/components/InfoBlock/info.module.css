@@ -74,7 +74,7 @@
         height: 80vh;
     }
     .infoWrapper {
-        height: 40vh;
+        height: 100%;
         align-items: center;
     }
     .infoItemSpan {
@@ -96,30 +96,36 @@
 
 @media (min-width: 576px) and (max-width: 768px) {
     .info {
-        height: 180vw;
+        height: 200vw;
     }
     .infoWrapper {
-        height: 100vh;
+        height: 100%;
         flex-direction: column;
         justify-content: center;
+        gap: 10vw;
     }
     .infoItem {
         width: 80vw;
         align-items: center;
     }
     .infoItemHeader {
-        width: 70%;
-        height: 10vw;
+        width: 60%;
+        height: 8vw;
         padding: 20px;
         justify-content: center;
-        gap: 5vw;
+        gap: 2vw;
     }
     .infoItemSpan {
-        font-size: 2.8vw;
+        font-size: 2.6vw;
+    }
+    .infoContent {
+        display: flex;
+        justify-content: center;
     }
     .infoContentText p{
-        font-size: 2.2vw;
-        line-height: 3.5vw;
+        font-size: 2vw;
+        line-height: 4vw;
+        text-align: center;
     }
     .infoIcon {
         font-size: 3.6vw
@@ -149,9 +155,14 @@
     .infoItemSpan {
         font-size: 3.4vw;
     }
+    .infoContent {
+        display: flex;
+        justify-content: center;
+    }
     .infoContentText p{
         font-size: 2.7vw;
         line-height: 3.5vw;
+        text-align: center;
     }
     .infoIcon {
         font-size: 4vw
