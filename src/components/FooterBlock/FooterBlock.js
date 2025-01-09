@@ -18,7 +18,8 @@ const FooterBlock = () => {
                     <h3 className={styles.footerHeading}>Services</h3>
                     <a>Technical Support</a>
                     <a>Data Analysis</a>
-                    <a>Web Development</a>
+                    <a>Databases</a>
+                    <a>Cloud Firewalls</a>
                 </div>
                 <div>
                     <h3 className={styles.footerHeading}>Legal</h3>
