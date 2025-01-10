@@ -59,7 +59,7 @@ const ContactFormBlock = () => {
                                     <input placeholder={"Email"} {...register("email", {
                                         required: "Email is required.",
                                         pattern: {
-                                            value:/^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                                            value:/^[\w-\.]+@([\w-]+\.)+[\w-]{2,5}$/,
                                             message: "Invalid email address."
                                         }
                                     })} />
