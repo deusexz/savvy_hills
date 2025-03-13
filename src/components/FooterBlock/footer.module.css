@@ -42,6 +42,7 @@
     transition: 300ms ease;
     user-select: none;
     color: rgb(28, 28, 28);
+    width: fit-content;
 }
 .footerWrapper a:hover {
     color: rgb(56, 14, 148);
