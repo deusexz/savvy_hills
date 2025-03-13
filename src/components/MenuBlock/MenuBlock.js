@@ -24,7 +24,7 @@ const MenuBlock = () => {
                 {
                     isMenuToggled && <motion.div className={styles.menu}
                                              initial={{width: 0, height: 0, visibility: "hidden"}}
-                                             animate={{width: "40%", height: "100vh", visibility: "visible"}}
+                                             animate={{width: "48%", height: "100vh", visibility: "visible"}}
                                              exit={{width: 0, height: 0, opacity: 0}}
                                              transition={{duration: 0.5}}
                     >

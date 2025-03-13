@@ -3,7 +3,7 @@ import styles from './header.module.css';
 import {ReactComponent as Logo} from '../../assets/logo/logo.svg';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
-import useMediaMobile from "./hooks/CheckWindowWidth";
+import useMediaMobile from "../../store/hooks/CheckWindowWidth";
 import {Link} from "react-scroll";
 import MenuBlock from "../MenuBlock/MenuBlock";
 

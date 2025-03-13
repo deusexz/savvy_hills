@@ -38,3 +38,16 @@
     font-size: 3vw;
     color: white;
 }
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .menu {
+        padding:20px;
+    }
+    .menuWrapper a{
+        font-size: 5vw;
+    }
+    .contactButton {
+        width: 35vw;
+        font-size: 4.2vw;
+    }
+}

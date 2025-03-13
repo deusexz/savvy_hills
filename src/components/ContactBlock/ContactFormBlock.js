@@ -5,7 +5,7 @@ import {AnimatePresence, motion} from "framer-motion";
 import {toggleContactPopUp} from "../../store/actions/action";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faX} from "@fortawesome/free-solid-svg-icons";
-import useContactSubmit from "./hooks/useContactSubmit";
+import useContactSubmit from "../../store/hooks/useContactSubmit";
 
 const ContactFormBlock = () => {
     const dispatch = useDispatch();

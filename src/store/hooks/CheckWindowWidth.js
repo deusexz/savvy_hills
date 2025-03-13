@@ -4,11 +4,9 @@ const useMediaMobile = () => {
     const [isMobile, setMobile] = useState(window.innerWidth < 768);
 
 
-
     const isMobileSize = () =>{
         setMobile(window.innerWidth < 768);
     }
-
 
     useEffect(() => {
         window.addEventListener("resize", isMobileSize);
