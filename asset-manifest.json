@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/savvy_hills/static/css/main.a1e11e99.css",
-    "main.js": "/savvy_hills/static/js/main.c881ed4e.js",
+    "main.css": "/savvy_hills/static/css/main.456d6a9b.css",
+    "main.js": "/savvy_hills/static/js/main.8c7f808c.js",
     "static/js/488.92c7e067.chunk.js": "/savvy_hills/static/js/488.92c7e067.chunk.js",
     "static/media/contactBackground.jpg": "/savvy_hills/static/media/contactBackground.60c63f92aa9b7d12cb6e.jpg",
     "static/media/heroBackground.jpg": "/savvy_hills/static/media/heroBackground.5206ae132d755b722b4a.jpg",
@@ -12,12 +12,12 @@
     "static/media/slick.ttf": "/savvy_hills/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/savvy_hills/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/savvy_hills/index.html",
-    "main.a1e11e99.css.map": "/savvy_hills/static/css/main.a1e11e99.css.map",
-    "main.c881ed4e.js.map": "/savvy_hills/static/js/main.c881ed4e.js.map",
+    "main.456d6a9b.css.map": "/savvy_hills/static/css/main.456d6a9b.css.map",
+    "main.8c7f808c.js.map": "/savvy_hills/static/js/main.8c7f808c.js.map",
     "488.92c7e067.chunk.js.map": "/savvy_hills/static/js/488.92c7e067.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1e11e99.css",
-    "static/js/main.c881ed4e.js"
+    "static/css/main.456d6a9b.css",
+    "static/js/main.8c7f808c.js"
   ]
 }
